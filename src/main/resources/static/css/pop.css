@@ -1,0 +1,69 @@
+.pop{
+    margin:0;padding: 0;font-size: 32px;
+    background-color: #CCF;
+}
+.pop{
+    position: fixed;
+    display: none;
+    border-radius: 10px;
+    z-index: 200;
+    width:600px;
+    height:650px;
+    border:1px solid #CACACA;
+    font:1rem "微软雅黑";
+    color: #2B8AFB;
+    background-color: #CCF;
+}
+.pop .title{
+    width:600px;
+    height:550px;
+    line-height: 35px;
+    border-bottom:1px solid #CACACA;
+    margin: 20px auto;
+    background-color: #FFCCCC;
+    color: #2B8AFB;
+}
+.pop .btn{
+    width: 42%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 40px;
+    float:left;
+    color: #2B8AFB;
+}
+#btn-left{
+    border-right:1px solid #CACACA;
+}
+#btn-left1{
+    border-right:1px solid #CACACA;
+}
+.addUL{
+    text-align:center;
+    list-style-type:none;
+    width:600px;
+    height:50px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+.addUL li{
+    float: left;
+    text-align:center;
+}
+.addUL li input{
+    width: 350px;
+    height: 50px;
+}
+.addUL li select{
+    width: 350px;
+    height: 50px;
+}
+.addUL li.addLI{
+    margin-left:60px;
+}
+label.xrequired:before {
+    content: '* ';
+    color: red;
+}
+#btn1{
+    margin-left: 80%;
+}
